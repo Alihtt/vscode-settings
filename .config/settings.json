@@ -1,0 +1,95 @@
+{
+    "files.autoSave": "afterDelay",
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "editor.fontFamily": "'JetBrainsMono Nerd Font','Fira Code'",
+    "editor.fontLigatures": true,
+    "editor.formatOnSave": true,
+    "editor.mouseWheelZoom": true,
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "editor.fontSize": 18,
+    "emmet.includeLanguages": {
+        "django-html": "html"
+    },
+    "files.associations": {
+        "**/*.html": "html",
+        "**/templates/**/*.html": "django-html",
+        "**/templates/*": "django-html",
+        "**/templates/**/*": "django-txt",
+        "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+    },
+    "beautify.language": {
+        "html": [
+            "htm",
+            "html",
+            "django-html"
+        ]
+    },
+    "json.schemas": [],
+    "workbench.editor.empty.hint": "hidden",
+    "git.suggestSmartCommit": false,
+    "explorer.fileNesting.patterns": {
+        "*.ts": "${capture}.js",
+        "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+        "*.jsx": "${capture}.js",
+        "*.tsx": "${capture}.ts",
+        "tsconfig.json": "tsconfig.*.json",
+        "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+        "*.sqlite": "${capture}.${extname}-*",
+        "*.db": "${capture}.${extname}-*",
+        "*.sqlite3": "${capture}.${extname}-*",
+        "*.db3": "${capture}.${extname}-*",
+        "*.sdb": "${capture}.${extname}-*",
+        "*.s3db": "${capture}.${extname}-*"
+    },
+    "files.exclude": {
+        ".docker-conf/": true,
+        "**/__pycache__/": true,
+        "venv/": true
+    },
+    "editor.suggest.insertMode": "replace",
+    "editor.suggest.matchOnWordStartOnly": false,
+    "files.autoSaveDelay": 3000,
+    "explorer.compactFolders": false,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true
+    },
+    "workbench.activityBar.location": "hidden",
+    "material-icon-theme.hidesExplorerArrows": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.tree.renderIndentGuides": "onHover",
+    "workbench.sideBar.location": "right",
+    "editor.minimap.enabled": false,
+    "workbench.layoutControl.enabled": false,
+    "editor.renderWhitespace": "none",
+    "editor.renderLineHighlight": "gutter",
+    "editor.showFoldingControls": "never",
+    // "editor.scrollbar.horizontal": "hidden",
+    // "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.horizontalScrollbarSize": 8,
+    "editor.scrollbar.verticalScrollbarSize": 8,
+    "editor.cursorBlinking": "solid",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "vim.leader": "<space>",
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.statusBarColorControl": true,
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false
+    },
+    // To improve performance
+    "extensions.experimental.affinity": {
+        "vscodevim.vim": 1
+    },
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#005f87",
+        "statusBar.noFolderBackground": "#005f87",
+        "statusBar.debuggingBackground": "#005f87",
+        "statusBar.foreground": "#ffffff",
+        "statusBar.debuggingForeground": "#ffffff"
+    }
+}
